@@ -1,0 +1,42 @@
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+
+#contenedor-formulario{
+    
+    position:absolute;
+    margin: 50px;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+/*=========================CONTACTOS BACKGROUND================================*/
+
+#bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: #1b2a4e;
+    min-height:500px;
+    position:relative;
+}
+
+
+/*===================SLIDER DE IMAGENES==========================*/
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+
+

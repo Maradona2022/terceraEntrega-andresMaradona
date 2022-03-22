@@ -1,0 +1,117 @@
+/*=========================CONTACTOS FORMULARIO================================*/
+#contenedor-formulario {
+  position: absolute;
+  margin: 50px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fbfafa;
+  border-radius: 5px; }
+
+#titulo-formulario {
+  color: #3f3f3f; }
+
+/*=========================CONTACTOS BACKGROUND================================*/
+#bg-contactos {
+  position: relative;
+  top: -130px; }
+
+#seccion-contacto {
+  background-color: #1b2a4e;
+  min-height: 500px;
+  position: relative; }
+
+/*===================SLIDER DE IMAGENES==========================*/
+.carousel-inner {
+  max-height: 39rem !important; }
+
+footer {
+  background: #1b2a4e;
+  min-height: 100px; }
+
+footer p {
+  color: #f3f3f3;
+  text-align: center; }
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; }
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+@media (max-width: 1200px) {
+  #intro, #equipo {
+    width: 90% !important;
+    margin: auto; }
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px; }
+  .wrapper-local {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px; } }
+
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+@media (max-width: 768px) {
+  #intro, #equipo {
+    width: 90% !important;
+    margin: auto; }
+  #img-equipo {
+    max-height: 20rem !important;
+    width: 90%; }
+  .wrapper-local {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px; }
+  #local {
+    flex-wrap: wrap; }
+  .mapa img {
+    width: 100%;
+    height: auto; }
+  #bg-contactos {
+    top: -120px; } }
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+@media (max-width: 576px) {
+  #servicios-fila-2 {
+    width: 100% !important; }
+  #servicios-fila-1 {
+    width: 100% !important; }
+  .icono-wrap {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    text-align: center; } }
+
+.colorPrimario {
+  color: blue; }
+
+.colorSecundario {
+  color: red; }
+
+.backgroundPrimario {
+  color: white; }
+
+.backgroundSecundario {
+  color: black; }
+
+div {
+  color: red;
+  text-align: center;
+  font-size: 35px; }
+
+.boton, .btn1 {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 20px; }
+
+footer {
+  color: red;
+  background-color: blue; }

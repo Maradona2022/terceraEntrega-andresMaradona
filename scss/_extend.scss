@@ -1,0 +1,17 @@
+//base
+
+.boton{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: white;
+	background-color: blue;
+	border: 1px solid black;
+	border-radius: 20px;	
+}
+
+//extend base
+
+.btn1{
+	@extend .boton;
+}
